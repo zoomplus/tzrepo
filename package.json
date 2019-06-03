@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-tz",
+  "version": "1.0.0",
+  "description": "TZ",
+  "author": "zv",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "convert-csv-to-json": "^0.0.14",
+    "cross-env": "^5.2.0",
+    "csv": "^5.1.1",
+    "csv-parse": "^4.4.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "moment": "^2.24.0",
+    "multer": "^1.4.1",
+    "nuxt": "^2.4.0",
+    "parse-csv": "^0.2.0",
+    "pg": "^7.11.0",
+    "pg-promise": "^8.7.2",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
